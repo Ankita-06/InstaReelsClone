@@ -19,14 +19,17 @@ cd InstaReelsClone
 
 
 2. Install dependencies:
+
 npm install
 
 
 3. Run on Android:
+
 npx react-native run-android
 
 
 4. Run on iOS:
+
 npx react-native run-ios
 
 
