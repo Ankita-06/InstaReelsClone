@@ -13,6 +13,7 @@ A simple Instagram Reels clone built with React Native.
 ## Setup
 
 1. Clone the repo:
+
 git clone https://github.com/Ankita-06/InstaReelsClone.git
 cd InstaReelsClone
 
