@@ -11,20 +11,36 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AF373D2225D7CCF1475FC6BE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		6F77283D33AA4BD1B734C8FF /* DMSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 650E0234DEB8406487423424 /* DMSans-Black.ttf */; };
+		ED26E0B45D8E4F3AB04C26E5 /* DMSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB7BC1FC221148F5BE88D245 /* DMSans-BlackItalic.ttf */; };
+		11346CC05BE64DBDB52DB497 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79D95DC0D17F41AFBE71D485 /* DMSans-Bold.ttf */; };
+		1FACCB5FD0DB49928F9C08D7 /* DMSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 349B9549320A472FB9E99CA8 /* DMSans-BoldItalic.ttf */; };
+		3FE3FF50D88B4A688C55E7EB /* DMSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94CFB6925CCB4F5FAAB59EDF /* DMSans-ExtraBold.ttf */; };
+		BF1B209262634D9187890DC0 /* DMSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57EAD1B26322432DA68F3886 /* DMSans-ExtraBoldItalic.ttf */; };
+		97931625E1814BF8A30EC51B /* DMSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF1A1AF3CAFA499EA7F8451D /* DMSans-ExtraLight.ttf */; };
+		EB8019AB415F4EF08448632D /* DMSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 311B24BF169B42C6A96C97BF /* DMSans-ExtraLightItalic.ttf */; };
+		EE8B9C81A54C43CAAAD32AAE /* DMSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04820781F19445D9B944D60D /* DMSans-Italic.ttf */; };
+		0F6B6EDF78834EECBFDE94BA /* DMSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196C03EE5B9D428A8E4497C4 /* DMSans-Light.ttf */; };
+		DD47ED27E00F45FDB53C3E68 /* DMSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31D4A3042E4A638A7078A6 /* DMSans-LightItalic.ttf */; };
+		B77126FA1FFB48C596CB4DE4 /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A017DAA383F542889770EB18 /* DMSans-Medium.ttf */; };
+		CF258840B5EF4FC2A9988935 /* DMSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF360C9F2D3246CD8A5919D0 /* DMSans-MediumItalic.ttf */; };
+		A8D0C9DD97964185B96E0483 /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C8C16AEFB194C5CB3578F83 /* DMSans-Regular.ttf */; };
+		AC66917246DE4485B42DDA79 /* DMSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CC7657503644760A2C527CA /* DMSans-SemiBold.ttf */; };
+		D55DA5B5F1F04F9FBC5CA1BF /* DMSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E64D04B5281467184B66F41 /* DMSans-SemiBoldItalic.ttf */; };
+		A70C553BF5744D8E96F6ADAD /* DMSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46FB9D3ECBED4728B77AD3FB /* DMSans-Thin.ttf */; };
+		A67A6A926EA34FA4BA8329D9 /* DMSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13E41E824C5E401295A6F2AB /* DMSans-ThinItalic.ttf */; };
+		9CB177D6DCF243A48BBAF2DB /* Mukta-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C75EDAEAF7BD4880881891B5 /* Mukta-Bold.ttf */; };
+		C2E041414AD64A46849F065E /* Mukta-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC53E32B7DDF4399BD206764 /* Mukta-ExtraBold.ttf */; };
+		2FAA753C19CA49D488F736E1 /* Mukta-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE0EAE1F08E84772A364C862 /* Mukta-ExtraLight.ttf */; };
+		D240666F8180438AA53627FD /* Mukta-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8CE2CB3E6F64A8FBD343862 /* Mukta-Light.ttf */; };
+		76C71A9DDBF94899A00D0AB4 /* Mukta-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3704D9FDA846498B88334D /* Mukta-Medium.ttf */; };
+		FA29F450A54F405B9B142990 /* Mukta-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E723476013840ABA9497B54 /* Mukta-Regular.ttf */; };
+		16CFD7C9D3EE45F49442EF95 /* Mukta-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC2C8D75C570412B969DC7B4 /* Mukta-SemiBold.ttf */; };
+		BC0CA0D1F1F6416E8D2EDD34 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50ABF4B97518470488D1C43B /* OFL.txt */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = InstaReelsClone;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* InstaReelsClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaReelsClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = InstaReelsClone/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = InstaReelsClone/Info.plist; sourceTree = "<group>"; };
@@ -35,6 +51,32 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = InstaReelsClone/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = InstaReelsClone/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		650E0234DEB8406487423424 /* DMSans-Black.ttf */ = {isa = PBXFileReference; name = "DMSans-Black.ttf"; path = "../assets/fonts/DMSans-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EB7BC1FC221148F5BE88D245 /* DMSans-BlackItalic.ttf */ = {isa = PBXFileReference; name = "DMSans-BlackItalic.ttf"; path = "../assets/fonts/DMSans-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		79D95DC0D17F41AFBE71D485 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; name = "DMSans-Bold.ttf"; path = "../assets/fonts/DMSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		349B9549320A472FB9E99CA8 /* DMSans-BoldItalic.ttf */ = {isa = PBXFileReference; name = "DMSans-BoldItalic.ttf"; path = "../assets/fonts/DMSans-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		94CFB6925CCB4F5FAAB59EDF /* DMSans-ExtraBold.ttf */ = {isa = PBXFileReference; name = "DMSans-ExtraBold.ttf"; path = "../assets/fonts/DMSans-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		57EAD1B26322432DA68F3886 /* DMSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "DMSans-ExtraBoldItalic.ttf"; path = "../assets/fonts/DMSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EF1A1AF3CAFA499EA7F8451D /* DMSans-ExtraLight.ttf */ = {isa = PBXFileReference; name = "DMSans-ExtraLight.ttf"; path = "../assets/fonts/DMSans-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		311B24BF169B42C6A96C97BF /* DMSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "DMSans-ExtraLightItalic.ttf"; path = "../assets/fonts/DMSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		04820781F19445D9B944D60D /* DMSans-Italic.ttf */ = {isa = PBXFileReference; name = "DMSans-Italic.ttf"; path = "../assets/fonts/DMSans-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		196C03EE5B9D428A8E4497C4 /* DMSans-Light.ttf */ = {isa = PBXFileReference; name = "DMSans-Light.ttf"; path = "../assets/fonts/DMSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8B31D4A3042E4A638A7078A6 /* DMSans-LightItalic.ttf */ = {isa = PBXFileReference; name = "DMSans-LightItalic.ttf"; path = "../assets/fonts/DMSans-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A017DAA383F542889770EB18 /* DMSans-Medium.ttf */ = {isa = PBXFileReference; name = "DMSans-Medium.ttf"; path = "../assets/fonts/DMSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF360C9F2D3246CD8A5919D0 /* DMSans-MediumItalic.ttf */ = {isa = PBXFileReference; name = "DMSans-MediumItalic.ttf"; path = "../assets/fonts/DMSans-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7C8C16AEFB194C5CB3578F83 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; name = "DMSans-Regular.ttf"; path = "../assets/fonts/DMSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3CC7657503644760A2C527CA /* DMSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "DMSans-SemiBold.ttf"; path = "../assets/fonts/DMSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E64D04B5281467184B66F41 /* DMSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "DMSans-SemiBoldItalic.ttf"; path = "../assets/fonts/DMSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		46FB9D3ECBED4728B77AD3FB /* DMSans-Thin.ttf */ = {isa = PBXFileReference; name = "DMSans-Thin.ttf"; path = "../assets/fonts/DMSans-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		13E41E824C5E401295A6F2AB /* DMSans-ThinItalic.ttf */ = {isa = PBXFileReference; name = "DMSans-ThinItalic.ttf"; path = "../assets/fonts/DMSans-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C75EDAEAF7BD4880881891B5 /* Mukta-Bold.ttf */ = {isa = PBXFileReference; name = "Mukta-Bold.ttf"; path = "../assets/fonts/Mukta-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC53E32B7DDF4399BD206764 /* Mukta-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Mukta-ExtraBold.ttf"; path = "../assets/fonts/Mukta-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE0EAE1F08E84772A364C862 /* Mukta-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Mukta-ExtraLight.ttf"; path = "../assets/fonts/Mukta-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F8CE2CB3E6F64A8FBD343862 /* Mukta-Light.ttf */ = {isa = PBXFileReference; name = "Mukta-Light.ttf"; path = "../assets/fonts/Mukta-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CB3704D9FDA846498B88334D /* Mukta-Medium.ttf */ = {isa = PBXFileReference; name = "Mukta-Medium.ttf"; path = "../assets/fonts/Mukta-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0E723476013840ABA9497B54 /* Mukta-Regular.ttf */ = {isa = PBXFileReference; name = "Mukta-Regular.ttf"; path = "../assets/fonts/Mukta-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AC2C8D75C570412B969DC7B4 /* Mukta-SemiBold.ttf */ = {isa = PBXFileReference; name = "Mukta-SemiBold.ttf"; path = "../assets/fonts/Mukta-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		50ABF4B97518470488D1C43B /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../assets/fonts/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,14 +91,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* InstaReelsClone */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +127,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D3F9C097ABA04E9C89BBB993 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -115,6 +150,40 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		D3F9C097ABA04E9C89BBB993 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				650E0234DEB8406487423424 /* DMSans-Black.ttf */,
+				EB7BC1FC221148F5BE88D245 /* DMSans-BlackItalic.ttf */,
+				79D95DC0D17F41AFBE71D485 /* DMSans-Bold.ttf */,
+				349B9549320A472FB9E99CA8 /* DMSans-BoldItalic.ttf */,
+				94CFB6925CCB4F5FAAB59EDF /* DMSans-ExtraBold.ttf */,
+				57EAD1B26322432DA68F3886 /* DMSans-ExtraBoldItalic.ttf */,
+				EF1A1AF3CAFA499EA7F8451D /* DMSans-ExtraLight.ttf */,
+				311B24BF169B42C6A96C97BF /* DMSans-ExtraLightItalic.ttf */,
+				04820781F19445D9B944D60D /* DMSans-Italic.ttf */,
+				196C03EE5B9D428A8E4497C4 /* DMSans-Light.ttf */,
+				8B31D4A3042E4A638A7078A6 /* DMSans-LightItalic.ttf */,
+				A017DAA383F542889770EB18 /* DMSans-Medium.ttf */,
+				BF360C9F2D3246CD8A5919D0 /* DMSans-MediumItalic.ttf */,
+				7C8C16AEFB194C5CB3578F83 /* DMSans-Regular.ttf */,
+				3CC7657503644760A2C527CA /* DMSans-SemiBold.ttf */,
+				8E64D04B5281467184B66F41 /* DMSans-SemiBoldItalic.ttf */,
+				46FB9D3ECBED4728B77AD3FB /* DMSans-Thin.ttf */,
+				13E41E824C5E401295A6F2AB /* DMSans-ThinItalic.ttf */,
+				C75EDAEAF7BD4880881891B5 /* Mukta-Bold.ttf */,
+				BC53E32B7DDF4399BD206764 /* Mukta-ExtraBold.ttf */,
+				EE0EAE1F08E84772A364C862 /* Mukta-ExtraLight.ttf */,
+				F8CE2CB3E6F64A8FBD343862 /* Mukta-Light.ttf */,
+				CB3704D9FDA846498B88334D /* Mukta-Medium.ttf */,
+				0E723476013840ABA9497B54 /* Mukta-Regular.ttf */,
+				AC2C8D75C570412B969DC7B4 /* Mukta-SemiBold.ttf */,
+				50ABF4B97518470488D1C43B /* OFL.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -172,19 +241,39 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00E356EC1AD99517003FC87E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				AF373D2225D7CCF1475FC6BE /* PrivacyInfo.xcprivacy in Resources */,
+				6F77283D33AA4BD1B734C8FF /* DMSans-Black.ttf in Resources */,
+				ED26E0B45D8E4F3AB04C26E5 /* DMSans-BlackItalic.ttf in Resources */,
+				11346CC05BE64DBDB52DB497 /* DMSans-Bold.ttf in Resources */,
+				1FACCB5FD0DB49928F9C08D7 /* DMSans-BoldItalic.ttf in Resources */,
+				3FE3FF50D88B4A688C55E7EB /* DMSans-ExtraBold.ttf in Resources */,
+				BF1B209262634D9187890DC0 /* DMSans-ExtraBoldItalic.ttf in Resources */,
+				97931625E1814BF8A30EC51B /* DMSans-ExtraLight.ttf in Resources */,
+				EB8019AB415F4EF08448632D /* DMSans-ExtraLightItalic.ttf in Resources */,
+				EE8B9C81A54C43CAAAD32AAE /* DMSans-Italic.ttf in Resources */,
+				0F6B6EDF78834EECBFDE94BA /* DMSans-Light.ttf in Resources */,
+				DD47ED27E00F45FDB53C3E68 /* DMSans-LightItalic.ttf in Resources */,
+				B77126FA1FFB48C596CB4DE4 /* DMSans-Medium.ttf in Resources */,
+				CF258840B5EF4FC2A9988935 /* DMSans-MediumItalic.ttf in Resources */,
+				A8D0C9DD97964185B96E0483 /* DMSans-Regular.ttf in Resources */,
+				AC66917246DE4485B42DDA79 /* DMSans-SemiBold.ttf in Resources */,
+				D55DA5B5F1F04F9FBC5CA1BF /* DMSans-SemiBoldItalic.ttf in Resources */,
+				A70C553BF5744D8E96F6ADAD /* DMSans-Thin.ttf in Resources */,
+				A67A6A926EA34FA4BA8329D9 /* DMSans-ThinItalic.ttf in Resources */,
+				9CB177D6DCF243A48BBAF2DB /* Mukta-Bold.ttf in Resources */,
+				C2E041414AD64A46849F065E /* Mukta-ExtraBold.ttf in Resources */,
+				2FAA753C19CA49D488F736E1 /* Mukta-ExtraLight.ttf in Resources */,
+				D240666F8180438AA53627FD /* Mukta-Light.ttf in Resources */,
+				76C71A9DDBF94899A00D0AB4 /* Mukta-Medium.ttf in Resources */,
+				FA29F450A54F405B9B142990 /* Mukta-Regular.ttf in Resources */,
+				16CFD7C9D3EE45F49442EF95 /* Mukta-SemiBold.ttf in Resources */,
+				BC0CA0D1F1F6416E8D2EDD34 /* OFL.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,14 +364,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* InstaReelsClone */;
-			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
@@ -408,7 +489,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -473,7 +561,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
