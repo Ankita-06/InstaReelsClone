@@ -1,12 +1,12 @@
-// src/redux/store.js
 import { configureStore, createSlice } from '@reduxjs/toolkit';
 
 const reelsSlice = createSlice({
   name: 'reels',
   initialState: {
     pausedReels: {},
-    manuallyPausedReels: {}, // ✅ track manual toggles
+    manuallyPausedReels: {},
     currentPlayingId: null,
+    likedReels: {},
   },
   reducers: {
     setPaused: (state, action) => {
@@ -19,11 +19,15 @@ const reelsSlice = createSlice({
     setCurrentPlayingId: (state, action) => {
       state.currentPlayingId = action.payload;
     },
+    toggleLike: (state, action) => { 
+      const id = action.payload;
+      state.likedReels[id] = !state.likedReels[id];
+    },
   },
 });
 
+export const { setPaused, setCurrentPlayingId, toggleLike } = reelsSlice.actions;
 
-export const { setPaused, setCurrentPlayingId } = reelsSlice.actions;
 
 export const store = configureStore({
   reducer: {

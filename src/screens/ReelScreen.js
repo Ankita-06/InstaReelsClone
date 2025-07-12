@@ -12,15 +12,22 @@ import {
 import Video from 'react-native-video';
 import { useDispatch, useSelector } from 'react-redux';
 import { reelsData } from '../data/reels';
-import { setPaused, setCurrentPlayingId } from '../redux/store';
+import { setPaused, setCurrentPlayingId, toggleLike } from '../redux/store';
+
 
 const { width, height } = Dimensions.get('window');
 
 const ReelsScreen = () => {
   const dispatch = useDispatch();
-  const { pausedReels, currentPlayingId, manuallyPausedReels } = useSelector((state) => state.reels);
+  const { pausedReels, currentPlayingId, manuallyPausedReels, likedReels } = useSelector((state) => state.reels);
   const flatListRef = useRef();
-  const [showPlayIcon, setShowPlayIcon] = useState({}); // track which reel shows icon
+  const [showPlayIcon, setShowPlayIcon] = useState({}); 
+  const handleLike = (id) => {
+    dispatch(toggleLike(id));
+    setTimeout(() => {
+      console.log('Redux likedReels:', likedReels);
+    }, 200); 
+  };
   
   
 
@@ -68,7 +75,6 @@ const ReelsScreen = () => {
       <View style={{ height, width }}>
     <View style={StyleSheet.absoluteFill}>
 
-          {/* Video Player */}
           <Video
             source={item.videoUrl}
             style={styles.video}
@@ -78,12 +84,13 @@ const ReelsScreen = () => {
             paused={isPaused}
           />
   
-          {/* ✅ Full screen invisible overlay to capture touches */}
-          <TouchableWithoutFeedback onPress={() => handleVideoToggle(item.id)}>
-            <View style={styles.touchableOverlay} />
-          </TouchableWithoutFeedback>
+  <View style={styles.touchableOverlay}>
+  <TouchableWithoutFeedback onPress={() => handleVideoToggle(item.id)}>
+    <View style={StyleSheet.absoluteFill} />
+  </TouchableWithoutFeedback>
+</View>
+
   
-          {/* ✅ Show play icon if paused */}
           {shouldShowPlayIcon && isPaused && (
   <TouchableWithoutFeedback onPress={() => handleVideoToggle(item.id)}>
     <View style={styles.playIconContainer}>
@@ -95,7 +102,6 @@ const ReelsScreen = () => {
   </TouchableWithoutFeedback>
 )}
 
-          {/* ✅ Your UI layer — set to NOT block touches */}
           <View style={styles.overlay} pointerEvents="box-none">
             <Text style={styles.reelsTitle}>Reels</Text>
   
@@ -103,7 +109,7 @@ const ReelsScreen = () => {
               <Image source={require('../../assets/images/camera.png')} style={styles.camIconImage} />
             </View>
   
-            <View style={styles.bottomContainer} pointerEvents="none">
+            <View style={styles.bottomContainer}>
               <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                 <Image
                   source={{ uri: 'https://randomuser.me/api/portraits/women/1.jpg' }}
@@ -116,7 +122,16 @@ const ReelsScreen = () => {
   
               <View style={styles.iconsRow}>
                 <View style={styles.leftIcons}>
-                  <Image source={require('../../assets/images/heart.png')} style={styles.iconImage} />
+                <TouchableOpacity onPress={() => handleLike(item.id)}>
+  <Image
+    source={
+      likedReels[item.id]
+        ? require('../../assets/images/heartF.png')
+        : require('../../assets/images/heart.png')
+    }
+    style={styles.iconImage}
+  />
+</TouchableOpacity>
                   <Image source={require('../../assets/images/comment.png')} style={[styles.iconImage, { marginLeft: 12 }]} />
                   <Image source={require('../../assets/images/send.png')} style={[styles.iconImage, { marginLeft: 12 }]} />
                 </View>
@@ -154,6 +169,7 @@ const ReelsScreen = () => {
         snapToAlignment="start"
         onViewableItemsChanged={onViewableItemsChanged}
         viewabilityConfig={viewabilityConfig}
+        extraData={likedReels}
       />
       <View style={styles.bottomNav}>
         <Image source={require('../../assets/images/home.png')} style={styles.navIcon} />
